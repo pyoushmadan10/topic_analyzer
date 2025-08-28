@@ -18,7 +18,6 @@ A Python-based tool for extracting and ranking most relevant topics from web pag
 ## Techniques Used
 
 - **Natural Language Processing:** spaCy for linguistic analysis, NLTK for stopwords.
-- **Topic Modeling (Extensible):** Designed for integration with LDA (Latent Dirichlet Allocation) and NMF (Non-negative Matrix Factorization).
 - **Web Scraping:** BeautifulSoup for HTML parsing.
 - **Custom Filtering:** Domain-specific stopword and keyword filtering.
 
@@ -80,18 +79,6 @@ python main.py
 - `stopword_manager.py` - Manages stopwords and URL keywords.
 - `topic_extractor.py` - Extracts and scores topics using NLP.
 - `utils.py` - Utility functions for downloading models and data.
-
----
-
-## Extending with Topic Modeling
-
-To use LDA or NMF for topic modeling, install additional packages:
-
-```sh
-pip install gensim scikit-learn
-```
-
-Integrate LDA/NMF in `topic_extractor.py` as needed.
 
 ---
 
