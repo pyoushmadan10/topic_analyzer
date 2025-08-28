@@ -1,6 +1,6 @@
 # Topic Analyzer
 
-A Python-based tool for extracting and ranking topics from web pages using NLP and AI techniques.
+A Python-based tool for extracting and ranking most relevant topics from web pages using NLP and AI techniques.
 
 ---
 
