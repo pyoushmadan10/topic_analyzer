@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+lxml
+nltk
+spacy>=3.0
+numpy
+scikit-learn
